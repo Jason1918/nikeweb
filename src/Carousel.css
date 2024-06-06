@@ -1,0 +1,149 @@
+.carousel {
+    width: 100%;
+    height: 435vh; 
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: auto;
+    display: block;
+   
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel img:first-child {
+    transform: translateX(0);
+  }
+  
+  .carousel img:not(:first-child) {
+    position: absolute;
+    top: 0;
+    left: 100%;
+  }
+  .coming{
+    height: 45vh;
+    width: 100%;
+   
+    display: flex;
+     justify-content: center;
+     align-items: center;
+    
+  }
+  .second{
+    text-align: center;
+    line-height: 45px;
+   
+     
+  }
+  .nikee{
+    font-size: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+  }
+  .para{
+    font-size:25px;
+    color: rgb(57, 55, 55);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+  }
+  .btn{
+    background-color: black;
+    height: 55px;
+    width: 220px;
+    color: white;
+    font-size: 22px;
+   border-radius: 25px;
+  }
+  .heroo{
+    width: 100%;
+    height: 70vh;
+    
+  }
+  .product{
+    margin-top: 15px;
+    width: 100%;
+    height: 70vh;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .pro-first{
+    
+    width: 30%;
+    height: 65vh;
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_812,c_limit/a8f49ccf-e473-413f-bea4-dcfaeb8bb34d/women-s-shoes-clothing-accessories.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .pro-second{
+   
+    height: 65vh;
+    width: 30%; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_743,c_limit/cb28c551-b85b-479f-8fc3-40ad4e7c9ca4/nike-just-do-it.jpg);
+
+  }
+  .pro-third
+  {
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_812,c_limit/cbe90a72-4390-416f-9dbb-af295b44285a/nike-just-do-it.png);
+    
+    height: 65vh;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+
+
+
+
+
+
+
+
+  .producttt{
+    margin-top: 15px;
+    width: 100%;
+    height: 70vh;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .pro-firstt{
+    
+    width: 30%;
+    height: 65vh;
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_743,c_limit/39412611-0af5-4770-8c2e-ef5c23bc6a3d/nike-just-do-it.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .pro-secondd{
+   
+    height: 65vh;
+    width: 30%; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_741,c_limit/10f50a65-2596-438f-9b31-b5cd9ae2a087/image.png");
+
+  }
+  .pro-thirdd
+  {
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_741,c_limit/e7cf2bea-7179-41f7-bc7b-3cfc516c06bd/nike-just-do-it.png");
+    
+    height: 65vh;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
